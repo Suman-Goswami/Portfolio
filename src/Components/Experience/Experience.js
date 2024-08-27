@@ -7,7 +7,7 @@ const Experience = () => {
         {
             title: 'MyRupaya Contentedge Private Limited',
             description: "Worked as a Web Developer Intern at MyRupaya.in, where I developed and optimized web applications, focusing on enhancing user experience and site performance. I gained hands-on experience with React and UX/UI.",
-            img: '/images/MyRupaya2.png',
+            img: '/images/Myrupaya2.png',
             link: '#',
         },
         {
