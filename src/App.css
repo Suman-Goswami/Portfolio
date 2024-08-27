@@ -1,0 +1,46 @@
+/* Navbar Links */
+.navbar-links li {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 5px 10px;
+    position: relative; /* Positioning for the underline effect */
+    transition: color 0.3s ease;
+}
+
+/* Cute Lining Effect */
+.navbar-links li::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 4px;
+    left: 50%;
+    bottom: 0;
+    background-color: #e74c3c; /* Cute red color for the underline */
+    border-radius: 2px; /* Rounded ends for a softer, cute look */
+    transition: width 0.4s ease, left 0.4s ease; /* Smooth animation */
+}
+
+/* Navbar Links Hover Effect */
+.navbar-links li:hover::after {
+    width: 100%; /* Expand the underline fully on hover */
+    left: 0;
+}
+
+.navbar-links li:hover {
+    color: #e74c3c; /* Match the text color with the underline on hover */
+}
+
+/* Active Link Styling */
+.navbar-links li.active::after {
+    width: 100%;
+    left: 0;
+    background-color: #f39c12; /* A different color for the active underline */
+}
+
+.navbar-links li.active {
+    color: #f39c12;
+}
+
+

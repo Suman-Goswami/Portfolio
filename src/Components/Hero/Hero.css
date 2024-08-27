@@ -1,0 +1,69 @@
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3) translateY(-1000px);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.05) translateY(30px);
+  }
+  80% {
+    transform: scale(0.95) translateY(-10px);
+  }
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slowFadeInZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.slowFadeInZoom {
+  animation: slowFadeInZoom 2s ease-in-out forwards;
+}
+
+
+.pulseButton {
+  animation: pulse 1s infinite;
+}
+
+.scaleUpOnHover:hover {
+  transform: scale(1.1);
+}
+
+.bounceIn {
+  animation: bounceIn 1.5s ease-out forwards;
+}
+
+.fadeIn {
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+.delay-2s {
+  animation-delay: 2s;
+}
+
+.bouncyButton {
+  animation: bounce 2s infinite;
+}
+
+.scaleUpOnHover:hover {
+  transform: scale(1.1);
+}
