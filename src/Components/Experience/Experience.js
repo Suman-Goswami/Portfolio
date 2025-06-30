@@ -13,17 +13,11 @@ const Experience = () => {
 
     const experience = [
         {
-<<<<<<< HEAD
             title: 'Junior Developer',
             company: 'MyRupaya Contentedge',
             description: "Developed and optimized web applications, focusing on enhancing user experience and site performance. Gained hands-on experience with React and UX/UI design principles.",
             period: 'July 2024 - Present',
             img: images.myrupaya,
-=======
-            title: 'MyRupaya Contentedge Private Limited',
-            description: "Worked as a Web Developer Intern at MyRupaya.in, where I developed and optimized web applications, focusing on enhancing user experience and site performance. I gained hands-on experience with React and UX/UI.",
-            img: '/images/Myrupaya2.png',
->>>>>>> 891578f93ec7912d836ed3ec7bf5f6db71bc1ae6
             link: '#',
             color: 'from-cyan-600 to-blue-600'
         },
