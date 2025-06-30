@@ -37,7 +37,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="fixed w-full top-0 z-50 shadow-md bg-gradient-to-r from-blue-500 via-purple-500 to-red-400 text-white">
+        <div className="fixed w-full top-0 z-50 shadow-md bg-gradient-to-r from-blue-500 via-purple-500 to-red-400 text-white h-14 pt-2">
             <div className="container mx-auto px-6 py-4 flex justify-between items-center">
                 <a href="/" className="text-2xl font-bold flex items-center">
                     <img src="./images/logo1.png" alt="D-Cart" className="w-auto h-10 mr-2 rounded-lg" />
@@ -50,27 +50,27 @@ const Navbar = () => {
                     )}
                 </div>
                 <div className="hidden md:flex md:items-center md:space-x-10">
-                    <a href="#about" className={`relative px-4 py-2 text-lg font-bold ${activeSection === 'about' ? 'text-blue-700' : ''}`}>
+                    <a href="#about" className={`relative px-4 py-2 text-lg font-bold ${activeSection === 'about' ? 'text-black' : ''}`}>
                         About
                         <span className="absolute left-0 bottom-0 w-full h-1 bg-yellow-500 transform scale-x-0 transition-transform duration-300 ease-in-out origin-left hover:scale-x-100"></span>
                     </a>
-                    <a href="#projects" className={`relative px-4 py-2 text-lg font-bold ${activeSection === 'projects' ? 'text-blue-700' : ''}`}>
+                    <a href="#projects" className={`relative px-4 py-2 text-lg font-bold ${activeSection === 'projects' ? 'text-black' : ''}`}>
                         Projects
                         <span className="absolute left-0 bottom-0 w-full h-1 bg-yellow-500 transform scale-x-0 transition-transform duration-300 ease-in-out origin-left hover:scale-x-100"></span>
                     </a>
-                    <a href="#skills" className={`relative px-4 py-2 text-lg font-bold ${activeSection === 'skills' ? 'text-blue-700' : ''}`}>
+                    <a href="#skills" className={`relative px-4 py-2 text-lg font-bold ${activeSection === 'skills' ? 'text-black' : ''}`}>
                         Skills
                         <span className="absolute left-0 bottom-0 w-full h-1 bg-yellow-500 transform scale-x-0 transition-transform duration-300 ease-in-out origin-left hover:scale-x-100"></span>
                     </a>
-                    <a href="#experience" className={`relative px-4 py-2 text-lg font-bold ${activeSection === 'experience' ? 'text-blue-700' : ''}`}>
+                    <a href="#experience" className={`relative px-4 py-2 text-lg font-bold ${activeSection === 'experience' ? 'text-black' : ''}`}>
                         Experience
                         <span className="absolute left-0 bottom-0 w-full h-1 bg-yellow-500 transform scale-x-0 transition-transform duration-300 ease-in-out origin-left hover:scale-x-100"></span>
                     </a>
-                    <a href="#achievements" className={`relative px-4 py-2 text-lg font-bold ${activeSection === 'achievements' ? 'text-blue-700' : ''}`}>
+                    {/* <a href="#achievements" className={`relative px-4 py-2 text-lg font-bold ${activeSection === 'achievements' ? 'text-blue-700' : ''}`}>
                         Achievements
                         <span className="absolute left-0 bottom-0 w-full h-1 bg-yellow-500 transform scale-x-0 transition-transform duration-300 ease-in-out origin-left hover:scale-x-100"></span>
-                    </a>
-                    <a href="#contact" className={`relative px-4 py-2 text-lg font-bold ${activeSection === 'contact' ? 'text-blue-700' : ''}`}>
+                    </a> */}
+                    <a href="#contact" className={`relative px-4 py-2 text-lg font-bold ${activeSection === 'contact' ? 'text-black' : ''}`}>
                         Contact
                         <span className="absolute left-0 bottom-0 w-full h-1 bg-yellow-500 transform scale-x-0 transition-transform duration-300 ease-in-out origin-left hover:scale-x-100"></span>
                     </a>

@@ -1,0 +1,38 @@
+.contact-container {
+  max-width: 80rem; /* max-w-7xl */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .contact-container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .contact-container {
+    
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .contact-container {
+    max-width: 1536px;
+  }
+}
