@@ -20,7 +20,7 @@ const skills = [
 ];
 
     return (
-        <div id="skills" className="relative py-24 bg-gray-950 overflow-hidden">
+        <div id="skills" className="relative py-23 bg-gray-950 overflow-hidden">
             {/* Geometric background elements like in hero section */}
             <div className="absolute top-10 left-10 w-40 h-40 border-4 border-purple-600/20 rotate-45"></div>
             <div className="absolute bottom-20 right-20 w-32 h-32 border-4 border-cyan-500/20 rotate-12"></div>
