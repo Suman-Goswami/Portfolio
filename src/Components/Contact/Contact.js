@@ -21,7 +21,7 @@ const Contact = () => {
             'service_98g9dvq',    // EmailJS service ID
             'template_vqi2pvp',    // EmailJS template ID
             formData,
-            'nWsfyeCd4sLPYGK8U'    // EmailJS user ID
+            'cdgmMas6H2Sb8UaL-'    // EmailJS user ID
         ).then(() => {
             setShowModal(true);
             setIsSubmitting(false);
