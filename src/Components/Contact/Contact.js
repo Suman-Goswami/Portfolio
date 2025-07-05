@@ -197,7 +197,7 @@ const Contact = () => {
                     <h3 className="text-2xl font-bold text-white mb-8 text-center">Contact Information</h3>
                     
 {/* Flex container for contact items */}
-<div className="flex flex-row justify-center items-center gap-40 mb-10 flex-wrap">
+<div className="flex flex-row justify-center items-center gap-36 mb-10 flex-wrap">
     {/* Email */}
     <div className="flex flex-col items-center">
         <div className="bg-cyan-600/10 p-3 rounded-lg mb-3">
