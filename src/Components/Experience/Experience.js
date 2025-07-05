@@ -43,7 +43,7 @@ const Experience = () => {
             title: 'Frontend Developer',
             company: 'Theta Electronics',
             description: 'Built web projects using HTML, CSS, and JavaScript. Developed a frontend project named IJETAS focused on electronics component management.',
-            period: 'Aug 2023 - Sep 2023',
+            period: 'Aug 2023 - Aug 2023',
             img: images.theta,
             link: 'https://drive.google.com/file/d/1t_3F88Vry1ajANxi5FXa7L9DHRVmVGvl/view?usp=drivesdk',
             color: 'from-amber-600 to-orange-600'
