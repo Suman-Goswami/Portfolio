@@ -18,7 +18,7 @@ const Experience = () => {
             description: "Developed and optimized web applications, focusing on enhancing user experience and site performance. Gained hands-on experience with React and UX/UI design principles.",
             period: 'July 2024 - Present',
             img: images.myrupaya,
-            link: '#',
+            link: 'https://drive.google.com/file/d/1FQfUWVdChK5YqYUMENsrB8c0NHp669tp/view?usp=sharing',
             color: 'from-cyan-600 to-blue-600'
         },
         {
