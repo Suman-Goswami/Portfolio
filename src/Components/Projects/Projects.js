@@ -5,35 +5,47 @@ const Projects = () => {
     
     const projects = [
         {
-            title: 'MyRupaya',
-            description: "India's first unbiased financial product review platform. Developed and optimized web applications with React, focusing on UX and site performance.",
-            img: '/images/MyRupaya.png',
-            link: 'https://www.myrupaya.in/',
-            tags: ['React', 'Node.js', 'MongoDB'],
-            accent: 'bg-gradient-to-r from-blue-600 to-cyan-500'
+            title: 'Khel',
+            description: [
+                'MERN sports platform for tournament discovery and team management.',
+                'Includes player profiles, leaderboards, registrations, invites, and result tracking.'
+            ],
+            img: '/images/Programmates.png',
+            link: 'https://www.khel.world/',
+            tags: ['MERN Stack', 'Team Management', 'Performance'],
+            accent: 'bg-gradient-to-r from-emerald-600 to-cyan-500'
         },
         {
-            title: 'NimboNexus',
-            description: 'Salesforce deployment and customization services. Created responsive interfaces and ensured implementations suited business requirements.',
+            title: 'Resume Analyzer',
+            description: [
+                'AI-powered MERN app that extracts candidate details from PDF and DOCX resumes.',
+                'Uses OpenAI for structured data extraction, editable previews, and profile storage.'
+            ],
             img: '/images/NimboNexus.png',
-            link: 'https://nimbonexus.com/',
-            tags: ['React', 'Node.js', 'MongoDB'],
+            link: 'https://resume-analyzer-blond-five.vercel.app/',
+            tags: ['MERN Stack', 'OpenAI API', 'PDF/DOCX'],
             accent: 'bg-gradient-to-r from-purple-600 to-indigo-500'
         },
         {
-            title: 'Beats',
-            description: "A premium music streaming experience similar to Spotify. Built the frontend with React and implemented audio playback features.",
-            img: '/images/music.jpeg',
-            link: 'https://beats-snowy.vercel.app/',
-            tags: ['React', 'Audio API', 'Firebase'],
-            accent: 'bg-gradient-to-r from-pink-600 to-rose-500'
+            title: 'MyRupaya',
+            description: [
+                'Fintech web and mobile app built with MERN and React Native.',
+                'Features authentication, credit-card comparison, and financial offers.'
+            ],
+            img: '/images/MyRupaya.png',
+            link: 'https://www.myrupaya.in/',
+            tags: ['MERN Stack', 'React Native', 'Fintech'],
+            accent: 'bg-gradient-to-r from-blue-600 to-cyan-500'
         },
         {
-            title: 'E-Commerce',
-            description: 'A fully functional e-commerce website showcasing frontend and backend skills with cart functionality and payment integration.',
+            title: 'Digital Whopper',
+            description: [
+                'Responsive promotional landing page with a modern user interface.',
+                'Features smooth transitions, hover effects, and CSS animations.'
+            ],
             img: '/images/Ecommerce.jpeg',
-            link: '/',
-            tags: ['React', 'Node.js', 'Stripe'],
+            link: 'https://digital-whopper-tfvk.vercel.app/',
+            tags: ['JavaScript', 'CSS Animations', 'Vercel'],
             accent: 'bg-gradient-to-r from-amber-600 to-orange-500'
         },
     ];
@@ -90,9 +102,14 @@ const Projects = () => {
                                 
                                 {/* Card Content */}
                                 <div className="mb-6">
-                                    <p className="text-gray-400 text-sm mb-4 transition-all duration-300 group-hover:text-gray-300">
-                                        {project.description}
-                                    </p>
+                                    <ul className="text-gray-400 text-sm mb-4 space-y-2 transition-all duration-300 group-hover:text-gray-300">
+                                        {project.description.map((detail, detailIndex) => (
+                                            <li key={detailIndex} className="flex items-start gap-2">
+                                                <span className="text-cyan-400 mt-1" aria-hidden="true">&bull;</span>
+                                                <span>{detail}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
                                     
                                     {/* Tags */}
                                     <div className="flex flex-wrap gap-2">

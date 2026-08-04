@@ -8,6 +8,7 @@ const skills = [
     { name: 'Bootstrap', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
     { name: 'JavaScript', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
     { name: 'React', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+    { name: 'React Native', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
     { name: 'Node.js', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
     { name: 'Express.js', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' },
     { name: 'MongoDB', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
@@ -78,7 +79,7 @@ const skills = [
                             Creating responsive, accessible, and performant user interfaces
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {['HTML', 'CSS', 'React', 'Bootstrap'].map((tech, i) => (
+                            {['HTML', 'CSS', 'React', 'React Native', 'Bootstrap'].map((tech, i) => (
                                 <span 
                                     key={i} 
                                     className="px-3 py-1 bg-gray-900/50 text-cyan-300 text-sm rounded-full border border-gray-700 group-hover:border-cyan-500/50 transition-colors"
